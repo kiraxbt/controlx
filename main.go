@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"mixer/chain"
-	"mixer/ops"
-	"mixer/wallet"
+	"controlx/chain"
+	"controlx/ops"
+	"controlx/wallet"
 
 	"github.com/charmbracelet/bubbles/spinner"
 	"github.com/charmbracelet/bubbles/textinput"

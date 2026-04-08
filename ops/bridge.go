@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"mixer/chain"
-	"mixer/wallet"
+	"controlx/chain"
+	"controlx/wallet"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

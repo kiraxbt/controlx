@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"mixer/chain"
-	"mixer/wallet"
+	"controlx/chain"
+	"controlx/wallet"
 )
 
 // PriceCache caches token prices from CoinGecko.

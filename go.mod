@@ -1,4 +1,4 @@
-module mixer
+module controlx
 
 go 1.25.5
 

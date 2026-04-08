@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"mixer/chain"
-	"mixer/wallet"
+	"controlx/chain"
+	"controlx/wallet"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

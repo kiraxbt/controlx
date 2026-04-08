@@ -250,7 +250,7 @@ Scans all wallets, identifies those below the gas threshold, and funds them from
 
 Route funds through wallets across different chains via Li.Fi bridge.
 
-1. Enter chain rotation (e.g., `1,3,2` = Ethereum > Polygon > BSC > repeat)
+1. Enter chain rotation (e.g., `3,1,2,5,9` = Polygon > Ethereum > BSC > Avalanche > zkSync)
 2. Enter source wallet index
 3. Enter number of hops
 4. Confirm and watch live progress
@@ -346,10 +346,10 @@ Fund in wallet #1 on Ethereum, route through 6 wallets across 3 chains.
 
 1. Load wallets, set delay (recommended: gaussian)
 2. `Mix (cross-chain bridge)`
-3. Chain rotation: `1,3,2` (Ethereum > Polygon > BSC > Ethereum > ...)
+3. Chain rotation: `3,1,2,5,9` (Polygon > Ethereum > BSC > Avalanche > zkSync)
 
 ```
-Chain rotation  e.g. 2,1,3
+Chain rotation  e.g. 3,1,2,5,9
     1 = Ethereum     (ETH)
     2 = BSC          (BNB)
     3 = Polygon      (MATIC)
