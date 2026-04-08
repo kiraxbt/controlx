@@ -33,5 +33,6 @@ Thumbs.db
 *.swo
 *~
 
-# ── Claude Code ────────────────────────────────
+# ── Claude Code or Add other AI path ────────────────────────────────
 .claude/
+
